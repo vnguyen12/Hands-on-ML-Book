@@ -7,7 +7,7 @@ The best performing model is the random forest using the top `8 features`, `30 t
 
 *Future Work:* Use ensemble method to improve the performance
 
-## **Write-ups:**
+## **Summary:**
 **Assumptions:**
 1. Data has labels (median housing prices) that can be used with supervised learning
 2. Outputs will be numerical (prices) and not categorical

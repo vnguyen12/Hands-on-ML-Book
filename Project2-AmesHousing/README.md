@@ -17,7 +17,7 @@ TODO
 
 * There are 79 explanatory features, with a mix of categorical and numerical features
 * Categorical features:
-  * Nominal: simple labels with no ordering/implied sequence, ie. 'Neighborhood' has values ['CollgCr', 'OldTown', 'Gilbert'etc.]
+  * Nominal: simple labels with no ordering/implied sequence, ie. 'Neighborhood' has values ['CollgCr', 'OldTown', 'Gilbert', etc.]
   * Ordinal: categorical data that have ordering, ie. scale ['Excellent', 'Good', 'Fair' 'Poor']
 * Numerical features:
   * Ordinal: numerical scales that has ordering, ie. 'OverallQual' has values ranging from 1-10
@@ -46,7 +46,7 @@ numeric_feats_discrete= ['BsmtFullBath', 'BsmtHalfBath', 'FullBath', 'HalfBath',
     * Remove outliers, unnecessary feature
     * Fix data types
     * Impute missing values
-    * Analyze for multicollinearity using Variance Inflation Factor and remove features with 'LowQualFinSF'
+    * Analyze for multicollinearity using Variance Inflation Factor and remove feature 'LowQualFinSF'
   
 3. **Feature Scaling/Engineering:**
     * Correct for data skewness by using Box Cox transformation 

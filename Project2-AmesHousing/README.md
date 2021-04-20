@@ -43,7 +43,7 @@ numeric_feats_discrete= ['BsmtFullBath', 'BsmtHalfBath', 'FullBath', 'HalfBath',
     * Each of these features are then plotted individually against SalePrice
   
 2. **Data Cleaning/Processing:**
-    * Remove outliers, unnecessary feature
+    * Remove outliers, unnecessary features
     * Fix data types
     * Impute missing values
     * Analyze for multicollinearity using Variance Inflation Factor and remove feature 'LowQualFinSF'
@@ -54,10 +54,10 @@ numeric_feats_discrete= ['BsmtFullBath', 'BsmtHalfBath', 'FullBath', 'HalfBath',
     * Encode categorical features using labels and one-hot encoding
   
 4. **Target Variable Analysis:**
-    * TODO
+    * Adjust for skewness in 'SalePrice' variable using log transformation
     
 5. **Regression Models:**
-    * TODO
+    * Use linear, Bayesian ridge, ridge, lasso, elastic net, svm, and gradient boosting regressor as an ensemble
 
 ### **Results:**
 TODO
